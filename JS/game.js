@@ -1,6 +1,3 @@
-//Hello World of Phaser = Basic Game = Single Scene in Spin & Win Game
-// How to create the basic skeleton for the game -> Game Loop
-
 let prizes_config = {
     count:12,
     prize_names : ["3000 Credits","35% Off","Hard Luck","70% OFF","Swagpack","100% OFF","Netflix","50% Off","Amazon Voucher","2 Extra Spin", "TShirt","Book"]
@@ -68,7 +65,7 @@ function create(){
         align : "center",
         color : "red",
     }
-    this.game_text = this.add.text(10,10,"Welcome to Spin & Win",font_style);
+    this.game_text = this.add.text(350,150,"Welcome to Spin & Win",font_style);
     
     
     
